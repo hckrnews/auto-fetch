@@ -3,17 +3,17 @@ import fetch from '../index.js'
 
 describe('Test the auto Fetcher', () => {
   it('It should get the json from the file', async () => {
-    const { json } = await fetch('./src/__fixtures__/example.json')
+    const response = await fetch('./src/__fixtures__/example.json')
 
-    expect(json()).toEqual({
+    expect(await response.json()).toEqual({
       test: 'ok'
     })
   })
 
   it('It should get the text of the file', async () => {
-    const { text } = await fetch('./src/__fixtures__/example.json')
+    const response = await fetch('./src/__fixtures__/example.json')
 
-    expect(text()).toEqual(`{
+    expect(await response.text()).toEqual(`{
     "test": "ok"
 }
 `)
