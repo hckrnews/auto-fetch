@@ -1,6 +1,6 @@
 {
     "name": "@hckrnews/auto-fetch",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "Auto Fetch local/http",
     "files": [
         "src/index.js",
@@ -70,7 +70,7 @@
         ]
     },
     "dependencies": {
-        "@hckrnews/local-fetch": "^1.0.0",
+        "@hckrnews/local-fetch": "^1.2.0",
         "node-fetch": "^3.0.0"
     }
 }
