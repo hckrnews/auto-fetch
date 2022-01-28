@@ -42,12 +42,4 @@ describe('Test the auto Fetcher', () => {
       test: 'ok'
     })
   })
-
-  it('It should get the text of the local file with fetch', async () => {
-    const response = await fetch('file:///Users/pieter.wigboldus/projects/auto-fetch/src/__fixtures__/example.json')
-
-    expect(await response.json()).toEqual({
-      test: 'ok'
-    })
-  })
 })
