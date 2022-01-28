@@ -1,4 +1,4 @@
-const reRemote = /^\w[http(s)]+:\/\//
+const reRemote = /^\w[htp(s)]+:\/\//
 
 const isRemote = target => reRemote.test(target)
 
