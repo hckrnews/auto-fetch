@@ -1,4 +1,4 @@
-
+import { expect, describe, it } from '@jest/globals'
 import fetch from '../index.js'
 
 describe('Test the auto Fetcher', () => {
