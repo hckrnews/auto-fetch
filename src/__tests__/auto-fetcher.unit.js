@@ -1,4 +1,4 @@
-
+import { expect, describe, it } from '@jest/globals'
 import fetch from '../index.js'
 
 describe('Test the auto Fetcher', () => {
@@ -37,6 +37,14 @@ describe('Test the auto Fetcher', () => {
 
   it('It should get the text of the remote file with fetch', async () => {
     const response = await fetch('https://raw.githubusercontent.com/hckrnews/local-fetch/main/src/__fixtures__/example.json')
+
+    expect(await response.json()).toEqual({
+      test: 'ok'
+    })
+  })
+
+  it('It should get the text of the local file with fetch', async () => {
+    const response = await fetch('file:///Users/pieter.wigboldus/projects/auto-fetch/src/__fixtures__/example.json')
 
     expect(await response.json()).toEqual({
       test: 'ok'
