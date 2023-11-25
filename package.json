@@ -75,6 +75,6 @@
     },
     "dependencies": {
         "@hckrnews/local-fetch": "^1.2.3",
-        "node-fetch": "^3.0.0"
+        "node-fetch": "^3.3.2"
     }
 }
