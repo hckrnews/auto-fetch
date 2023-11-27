@@ -1,6 +1,6 @@
 {
     "name": "@hckrnews/auto-fetch",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "Auto Fetch local/http",
     "files": [
         "src/index.js",
