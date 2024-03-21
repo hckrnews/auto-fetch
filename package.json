@@ -1,6 +1,6 @@
 {
     "name": "@hckrnews/auto-fetch",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "description": "Auto Fetch local/http",
     "files": [
         "src/index.js",
@@ -39,7 +39,7 @@
     },
     "devDependencies": {
         "@babel/core": "^7.12.10",
-        "@babel/eslint-parser": "^7.14.7",
+        "@babel/eslint-parser": "^7.23.9",
         "@babel/plugin-transform-modules-commonjs": "^7.14.0",
         "@babel/preset-env": "^7.12.11",
         "@babel/preset-typescript": "^7.15.0",
